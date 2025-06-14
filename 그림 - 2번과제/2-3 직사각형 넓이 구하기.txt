@@ -1,0 +1,18 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(vector<vector<int>> dots) {
+    int answer = 0;
+    int x, y = 0;
+    int x1, y1 = 0;
+
+    x = max(max(dots[0][0], dots[1][0]), max(dots[2][0], dots[3][0])); // x축 최댓값
+    y = max(max(dots[0][1], dots[1][1]), max(dots[2][1], dots[3][1])); // y축 최댓값
+    x1 = min(min(dots[0][0], dots[1][0]), min(dots[2][0], dots[3][0])); // x축 최소값
+    y1 = min(min(dots[0][1], dots[1][1]), min(dots[2][1], dots[3][1])); // y축 최소값
+
+    answer = (x - x1) * (y - y1); // 최대값 - 최소값 후 x * y
+    return answer;
+}

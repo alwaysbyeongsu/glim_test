@@ -1,0 +1,19 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+//n = 주문한 인분 k = 마신 음료수
+int solution(int n, int k) {
+    int price = 0;
+    int service = 0;
+    if(k != 0) // 마신 음료수가 있을 경우
+    {
+        service = n / 10; // 서비스 음료수 갯수 계산
+        price = (k - service) * 2000 + (n * 12000);
+    }
+    else // 마신 음료수가 없을 경우
+    {
+        price = n * 12000;
+    }
+    return price;
+}
