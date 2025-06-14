@@ -1,0 +1,30 @@
+﻿  Glim_TestDlg.cpp
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(264,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(265,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(319,11): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(319,29): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(320,11): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(320,29): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(321,11): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(321,29): warning C4244: '초기화 중': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(426,21): warning C4244: '인수': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(429,157): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(537,123): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(547,14): warning C4244: '인수': '_Ty'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(591,17): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(602,22): warning C4244: '인수': 'double'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\vs2019\Glim_Test\Glim_TestDlg.cpp(608,123): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Glim_TestDlg.obj : warning LNK4258: '/entry:WinMainCRTStartup' 지시문은 '/ENTRY:wWinMainCRTStartup' 스위치와 호환되지 않습니다. 무시됩니다.
+  Glim_Test.vcxproj -> D:\vs2019\Glim_Test\x64\Debug\Glim_Test.exe
